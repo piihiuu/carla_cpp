@@ -57,7 +57,7 @@ if (LIBCARLA_BUILD_RELEASE)
   set_target_properties(carla_pytorch PROPERTIES COMPILE_FLAGS "${CMAKE_CXX_FLAGS_RELEASE}")# 设置carla_pytorch的编译标志
 #链接库设置
 endif()
-
+///
 if (LIBCARLA_BUILD_DEBUG)
  # 添加一个名为 carla_pytorch_debug 的静态库，并指定其源文件
   add_library(carla_pytorch_debug STATIC ${libcarla_pytorch_sources})
