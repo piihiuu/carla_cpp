@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5.1)# 设置CMake的最低版本要求
 project(libcarla-pytorch)# 定义项目名称 
-
+///
 # 安装头文件  
 # 使用file(GLOB)命令查找所有.h头文件，并安装到include/carla/pytorch目录下
 
